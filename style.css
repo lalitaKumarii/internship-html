@@ -1,0 +1,95 @@
+/* .red{
+    color:red;
+    font-size: 42px;
+} */
+
+body{
+    background-color: violet
+}
+.nav-bar{
+    display: flex;
+    flex-direction:row; /* used to set the main axis */
+    justify-content: space-around; /* used to set arrangement of elements on main axis */
+    align-items: center;
+    height: 10vh;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+} 
+
+.nav-bar  a{
+    font-size: 28px;
+    color: rgb(160, 15, 15);
+    text-decoration: none;
+}
+.nav-list a{
+    margin-right: 10px;
+}
+.nav-barbutton{
+    width: 28%;
+    font-size: 1.4rem;
+   /* height: 100%*/
+    border-radius: 10px;
+    border: 1px solid #794c4c;
+    border-radius:10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+}
+.rest-of-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    border: 1px solid black;
+}
+
+
+.left, .right{
+    width: 50%;
+    border-radius: 10px;
+   border: 1px solid black;
+    text-align: center;
+}
+.left{
+    padding-left: 10%;
+    text-align: left;
+    border-radius: 10;
+}
+.left button{
+    background-color: rgb(101, 101, 172);
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.right input{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #a77575;
+    border: none;
+    padding: 2px 5px;
+}
+.right select, .right button{
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 3px 5px;
+}
+.right button {
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgb(90, 3, 90);
+}
